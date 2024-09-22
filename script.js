@@ -28,8 +28,13 @@ const letterMapping = {
   'F': 6, 'O': 6, 'X': 6,
   'G': 7, 'P': 7, 'Y': 7,
   'H': 8, 'Q': 8, 'Z': 8,
-  'I': 9, 'R': 9, 'Ñ': 5,
+  'I': 9, 'R': 9, 
+  // tildes y ñ
+  'Á': 1, 'É': 5, 'Í': 9,
+  'Ó': 6, 'Ú': 3, 'Ñ': 5
 };
+
+
 
 // Function to calculate the digital root (single digit sum)
 function getDigitalRoot(sum) {
